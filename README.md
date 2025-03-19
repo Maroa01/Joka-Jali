@@ -20,27 +20,36 @@ Tagline: “Farm freshness served at Your Table – 100% Organic Dragon Fruit.�
 
 Call-to-action buttons: “Shop Now”, “Explore Products”.
 
-2. About Us
+## About Us
 Story of Joka Jali’s founding and mission.
+
 Key stats: Years in operation, acres cultivated, community partnerships.
+
 Embedded video tour of the farm.
 
-3. Products & Services
+## Products & Services
 Current offerings: Fresh dragon fruit (red/white flesh).
+
 Future Plans: Freeze-dried powder, dragon fruit snacks (interactive teaser section).
+
 Sustainable farming practices explained with icons/animations.
 
-4. Gallery
+## Gallery
 Responsive grid of high-quality farm, fruit, and team photos.
+
 Hover effects and lightbox pop-ups.
 
-5. Contact & Location
+## Contact & Location
 Contact form with fields for inquiries.
+
 Embedded Google Map (Nairobi farm location).
+
 Social media links (WhatsApp, Instagram, Facebook).
 
-6. Interactive Elements
+## Interactive Elements
 
 Scroll-triggered animations (e.g., fade-ins for stats).
+
 Hover effects on product cards.
+
 Mobile-responsive design.
