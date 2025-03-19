@@ -15,7 +15,9 @@ Engage visitors with an interactive, modern design.
 # Key Features
 ## Hero Section
 Full-screen slider with vibrant farm/product images.
+
 Tagline: “Farm freshness served at Your Table – 100% Organic Dragon Fruit.”
+
 Call-to-action buttons: “Shop Now”, “Explore Products”.
 
 2. About Us
