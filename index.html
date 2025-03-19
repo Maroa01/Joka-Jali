@@ -5,39 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Joka Jali Dragon Fruit Farm</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
-    <header>
-      <div class="container">
-        <h1>Joka Jali Dragon Fruit Farm</h1>
-        <nav>
-          <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#products">Products</a></li>
-            <li><a href="#gallery">Gallery</a></li>
-            <li><a href="#contact">Contact</a></li>
+
+    <header class="bg-green-500 text-white py-4">
+      <div class="container mx-auto">
+        <h1 class="text-2xl">Joka Jali Dragon Fruit Farm</h1>
+        <nav class="float-right">
+          <ul class="m-0 p-0 list-none">
+            <li class="inline ml-5"><a href="#about" class="text-white no-underline font-bold">About</a></li>
+            <li class="inline ml-5"><a href="#products" class="text-white no-underline font-bold">Products</a></li>
+            <li class="inline ml-5"><a href="#gallery" class="text-white no-underline font-bold">Gallery</a></li>
+            <li class="inline ml-5"><a href="#contact" class="text-white no-underline font-bold">Contact</a></li>
           </ul>
         </nav>
       </div>
     </header>
 
-    <section id="hero">
-      <div class="container">
-        <h2>
+    <main>
+    <section id="hero" class="bg-gradient-to-r from-pink-400 to-green-300 text-white text-center py-16">
+      <div class="container mx-auto">
+        <h2 class="text-4xl mb-6">
           Farm freshness served at Your Table – 100% Organic Dragon Fruit.
         </h2>
-        <p>Grown with love and care, delivered to your table.</p>
-        <a href="#" class="cta-button">Shop Now</a>
-        <a href="#products" class="cta-button">Explore Products</a>
+        <p class="text-lg mb-8">Grown with love and care, delivered to your table.</p>
+        <a href="#" class="inline-block px-8 py-3 bg-green-500 text-white no-underline rounded font-bold hover:bg-green-700">Shop Now</a>
+        <a href="#products" class="inline-block px-8 py-3 bg-green-500 text-white no-underline rounded font-bold hover:bg-green-700">Explore Products</a>
       </div>
     </section>
 
-    <section id="about">
-      <div class="container">
-        <h2>About Us</h2>
+    <section id="about" class="py-12">
+      <div class="container mx-auto">
+        <h2 class="text-3xl mb-6">About Us</h2>
         <div class="about-section">
-          <h3>Our Story</h3>
-          <p>
+          <h3 class="text-2xl font-bold mb-4">Our Story</h3>
+          <p class="mb-4">
             Joka Jali is a family-owned farm in Kajiado, Kenya, dedicated to
             cultivating premium dragon fruit. What started as a small venture
             has grown into a thriving farm with over 2,000 plants, driven by our
@@ -45,8 +48,8 @@
           </p>
         </div>
         <div class="about-section">
-          <h3>Our Journey</h3>
-          <p>
+          <h3 class="text-2xl font-bold mb-4">Our Journey</h3>
+          <p class="mb-4">
             From planting our first dragon fruit to developing freeze-dried
             powders and snacks, our mission has always been to bring the best of
             nature to health-conscious consumers. As we expand into Migori,
@@ -55,8 +58,8 @@
           </p>
         </div>
         <div class="about-section">
-          <h3>Our Dream</h3>
-          <p>
+          <h3 class="text-2xl font-bold mb-4">Our Dream</h3>
+          <p class="mb-4">
             We envision Joka Jali as a leading brand in luxury health foods,
             offering fresh and freeze-dried dragon fruit directly to consumers.
             Our goal is to redefine how people experience this superfruit while
@@ -67,28 +70,28 @@
       </div>
     </section>
 
-    <section id="products">
-      <div class="container">
-        <h2>Our Products</h2>
-        <div class="product-grid">
-          <div class="product">
-            <h3>Fresh Dragon Fruit</h3>
-            <p>
+    <section id="products" class="bg-gray-100 py-12">
+      <div class="container mx-auto">
+        <h2 class="text-3xl mb-6">Our Products</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div class="product bg-white p-6 rounded">
+            <h3 class="text-xl font-bold mb-3">Fresh Dragon Fruit</h3>
+            <p class="mb-3">
               Our signature dragon fruit, bursting with flavor and nutrients.
             </p>
             <img src="" alt="Dragon Fruit" />
           </div>
-          <div class="product">
-            <h3>Dragon Fruit Powder</h3>
-            <p>
+          <div class="product bg-white p-6 rounded">
+            <h3 class="text-xl font-bold mb-3">Dragon Fruit Powder</h3>
+            <p class="mb-3">
               Delicious and refreshing dragon fruit powder, perfect for any
               occasion.
             </p>
             <img src="" alt="Dragon Fruit Powder" />
           </div>
-          <div class="product">
-            <h3>Dragon Fruit Snacks</h3>
-            <p>
+          <div class="product bg-white p-6 rounded">
+            <h3 class="text-xl font-bold mb-3">Dragon Fruit Snacks</h3>
+            <p class="mb-3">
               Homemade dragon fruit snacks, made with the freshest ingredients.
             </p>
             <img src="" alt="Dragon Fruit Snacks" />
@@ -97,18 +100,18 @@
       </div>
     </section>
 
-    <section id="testimonials">
-      <div class="container">
-        <h2>Testimonials</h2>
-        <div class="testimonial">
-          <p>
+    <section id="testimonials" class="py-12">
+      <div class="container mx-auto">
+        <h2 class="text-3xl mb-6">Testimonials</h2>
+        <div class="testimonial border p-6 rounded mb-6">
+          <p class="mb-3">
             "Joka Jali's dragon fruit is the best I've ever tasted! Fresh,
             delicious, and always delivered on time."
           </p>
           <p>- John Doe, Local Customer</p>
         </div>
-        <div class="testimonial">
-          <p>
+        <div class="testimonial border p-6 rounded">
+          <p class="mb-3">
             "We've been exporting dragon fruit from Joka Jali for years, and
             their quality is unmatched. Highly recommended!"
           </p>
@@ -117,26 +120,26 @@
       </div>
     </section>
 
-    <section id="contact">
-      <div class="container">
-        <h2>Contact Us</h2>
-        <div class="contact-form">
+    <section id="contact" class="py-12">
+      <div class="container mx-auto">
+        <h2 class="text-3xl mb-6">Contact Us</h2>
+        <div class="contact-form mb-8">
           <form>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required />
+            <label for="name" class="block font-bold mb-2">Name:</label>
+            <input type="text" id="name" name="name" required class="w-full p-3 border rounded mb-4" />
 
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required />
+            <label for="email" class="block font-bold mb-2">Email:</label>
+            <input type="email" id="email" name="email" required class="w-full p-3 border rounded mb-4" />
 
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" rows="4" required></textarea>
+            <label for="message" class="block font-bold mb-2">Message:</label>
+            <textarea id="message" name="message" rows="4" required class="w-full p-3 border rounded mb-4"></textarea>
 
-            <button type="submit">Submit</button>
+            <button type="submit" class="bg-green-500 text-white py-3 px-6 rounded hover:bg-green-700">Submit</button>
           </form>
         </div>
 
-        <h2>Location</h2>
-        <div class="location-map">
+        <h2 class="text-3xl mb-6">Location</h2>
+        <div class="location-map mb-8">
         <div class="location-map">
         <div class="location-map">
           <iframe
@@ -151,15 +154,16 @@
         </div>
 
         <div class="social-links">
-          <a href="#" target="_blank">WhatsApp</a>
-          <a href="#" target="_blank">Instagram</a>
-          <a href="#" target="_blank">Facebook</a>
+          <a href="#" target="_blank" class="text-blue-500 hover:text-blue-700 mr-4">WhatsApp</a>
+          <a href="#" target="_blank" class="text-blue-500 hover:text-blue-700 mr-4">Instagram</a>
+          <a href="#" target="_blank" class="text-blue-500 hover:text-blue-700">Facebook</a>
         </div>
       </div>
     </section>
+    </main>
 
-    <footer>
-      <div class="container">
+    <footer class="bg-gray-800 text-white text-center py-4">
+      <div class="container mx-auto">
         <p>&copy; 2025 Joka Jali Dragon Fruit Farm</p>
       </div>
     </footer>
