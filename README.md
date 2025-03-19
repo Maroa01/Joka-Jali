@@ -1,7 +1,7 @@
 # Joka-Jali
 This repo contains the code to the joka jali landing page. 
-**Project Overview
-**
+
+# Project Overview
 This repository contains the codebase for Joka Jali, a dragon fruit farm and agribusiness based in Nairobi, Kenya. The website serves as a dynamic platform to:
 
 Showcase their organic dragon fruit farming practices.
