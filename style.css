@@ -1,10 +1,17 @@
 body {
-  font-family: "Arial", sans-serif;
+  font-family: "Nunito", sans-serif;
   margin: 0;
   padding: 0;
   background-color: #f8f8f8;
   color: #333;
   line-height: 1.6;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
 }
 
 .container {
@@ -14,7 +21,7 @@ body {
 }
 
 header {
-  background-color: #5cb85c;
+  background-color: #000;
   color: #fff;
   padding: 1em 0;
 }
@@ -44,9 +51,23 @@ header nav a {
 }
 
 #hero {
-  background-color: #fff;
+  background: linear-gradient(to right, #ff69b4, #b0e293);
   padding: 50px 0;
   text-align: center;
+  background-size: 200% 200%;
+  animation: gradientAnimation 10s ease infinite;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 #hero h2 {
@@ -61,6 +82,7 @@ header nav a {
   color: #fff;
   text-decoration: none;
   border-radius: 5px;
+  letter-spacing: 0.05em;
 }
 
 #about {
@@ -94,6 +116,51 @@ header nav a {
 #testimonials {
   background-color: #fff;
   padding: 30px 0;
+}
+
+/* Contact Section Styles */
+#contact {
+  padding: 30px 0;
+}
+
+.contact-form {
+  margin-bottom: 20px;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.contact-form button {
+  background-color: #5cb85c;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.location-map {
+  margin-bottom: 20px;
+}
+
+.social-links a {
+  display: inline-block;
+  margin-right: 10px;
+  color: #337ab7;
+  text-decoration: none;
 }
 
 .testimonial {
