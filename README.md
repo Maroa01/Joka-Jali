@@ -46,10 +46,25 @@ Engage visitors with an interactive, modern design.
 
 3. Social media links (WhatsApp, Instagram, Facebook).
 
+4. 4. Mobile-responsive design.
+
 ## Interactive Elements
 
 1. Scroll-triggered animations (e.g., fade-ins for stats).
 
 2. Hover effects on product cards.
 
-3. Mobile-responsive design.
+# Technologies Used
+**Frontend**: HTML5, CSS3 (Sass), JavaScript (ES6+)
+
+**Frameworks**: React.js (for dynamic UI) / Bootstrap 5 (optional)
+
+**Animation**: GSAP or AOS (Animate On Scroll)
+
+**Contact Form**: Formspree/Netlify Forms integration
+
+**Deployment**: Lovable/v0
+
+**SEO**: Meta tags, schema markup, image optimization (compressed WebP images)
+
+
