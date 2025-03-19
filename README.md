@@ -67,4 +67,17 @@ Engage visitors with an interactive, modern design.
 
 **SEO**: Meta tags, schema markup, image optimization (compressed WebP images)
 
+# Design Guidelines
+## Color Scheme:
 
+**Primary**: Dragon Fruit Pink (#FF69B4), Leaf Green (#228B22), Earthy Brown (#8B4513)
+
+**Secondary**: Cream (#FFFDD0), Dark Gray (#333)
+
+## Fonts:
+
+**Headings**: Poppins (Bold, Modern)
+
+**Body**: Open Sans (Clean, Readable)
+
+**Imagery**: High-resolution photos of fruits, farm, and happy customers.
